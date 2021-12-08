@@ -72,19 +72,6 @@ body{
     color:#fff;
     cursor: pointer;
   }
-  #my-canvas{
-      position:fixed;
-      top:0;
-      left:0;
-      width:100%;
-      height:100vh;
-      z-index: 100000;
-      visibility: hidden;
-      pointer-events: none;
-  }
-  #my-canvas.active{
-    visibility: visible;
-  }
   #demo{
       color: black;
       position: relative;
